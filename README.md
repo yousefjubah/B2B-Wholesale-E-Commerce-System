@@ -43,10 +43,14 @@ Instead of over-complicating the design with academic theories, the focus was en
 ## The Learning Sandbox & Future Implementation Roadmap
 
 ### The `Company.sql` Playground
-The `Company.sql` file contains a highly intensive, 280+ line environment featuring schema generation, massive data insertions, and 18 complex analytical queries, including recursive self-joins and advanced multi-table join structures.
+The `Company.sql` file contains a highly intensive, 280+ line environment featuring schema generation, massive data insertions, and some complex analytical queries, including recursive self-joins and advanced multi-table join structures.
 
 * **The Strategy:** This file was utilized as a rigorous practical training ground to master deep analytical indexing and query optimization.
 * **The Roadmap:** Every single optimization technique, complex query logic, and recursive structure mastered inside the `Company` sandbox is scheduled to be systematically deployed and applied directly onto the core `Gift_Business` ecosystem. Due to strict project timelines, this cross-implementation is scheduled as the immediate next phase of development.
+
+### Next-Phase Structural Enhancements (Upcoming Version)
+* **Junction Entity Implementation:** To maintain pure relation logic and maximize scalability as the system grows, the upcoming iteration is designed to transition selected core operations (such as multi-employee order oversight and transactional purchase routing) into distinct Many-to-Many (M:N) structures.
+* **Bridge Table Architecture:** This expansion will introduce explicit, dedicated junction tables to safely intercept overlapping operational parameters without causing normalization anomalies or breaking structural flexibility.
 
 ---
 
